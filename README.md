@@ -10,6 +10,6 @@ Options:
   --help  Show this message and exit.
 
 Commands:
-  add-cloak  Add cloak
-  get-cloak  Get cloak
+  add  Add cloak
+  get  Get cloak
 ```

@@ -1,7 +1,7 @@
 # coding=utf-8
+import click
 import cv2
 import numpy as np
-import click
 
 
 @click.group()
@@ -10,10 +10,10 @@ def cli():
 
 
 @cli.command(help='Add cloak')
-@click.option('--raw', help='Raw image')
-@click.option('--cloak', help='Cloak')
-@click.option('--dressed', help='Image dressed with cloak')
-def add_cloak(raw_path, cloak_path, dressed_path):
+@click.option('-r', '--raw-path', help='Raw image')
+@click.option('-c', '--cloak-path', help='Cloak')
+@click.option('-d', '--dressed-path', help='Image dressed with cloak')
+def add(raw_path, cloak_path, dressed_path):
     raw = cv2.imread(raw_path)
     raw_fft = np.fft.fft2(raw)
     cloak = cv2.imread(cloak_path)
@@ -31,10 +31,10 @@ def add_cloak(raw_path, cloak_path, dressed_path):
 
 
 @cli.command(help='Get cloak')
-@click.option('--raw', help='Raw image')
-@click.option('--dressed', help='Image dressed with cloak')
-@click.option('--cloak', help='Cloak')
-def get_cloak(raw_path, dressed_path, cloak_path):
+@click.option('-r', '--raw-path', help='Raw image')
+@click.option('-d', '--dressed-path', help='Image dressed with cloak')
+@click.option('-c', '--cloak-path', help='Cloak')
+def get(raw_path, dressed_path, cloak_path):
     raw = cv2.imread(raw_path)
     raw_fft = np.fft.fft2(raw)
     dressed = cv2.imread(dressed_path)
