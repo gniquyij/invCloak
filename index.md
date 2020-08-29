@@ -17,7 +17,7 @@ Is there any other way?
 
 Inspired by other 'blind watermarks', I wrote [invCloak](https://github.com/vjyq/invCloak). 
 
-What I want invCloak to do is to add my watermark to the frequency domain of my drawings so I don't need to rack my brain for it any more. It seems to work. 
+What I want invCloak to do is to add my watermark to the frequency domain of my drawings so I don't need to rack my brain any more. It seems to work. 
 
 Only one step to implement a watermark if you've got environment set up:
 
