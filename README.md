@@ -1,8 +1,10 @@
 # invCloak
 
-Python 3.7.1
+Invisible watermark. 
 
 ```
+$ pip install-r requirements.txt
+
 $ python cloak.py 
 Usage: cloak.py [OPTIONS] COMMAND [ARGS]...
 
@@ -13,3 +15,7 @@ Commands:
   add  Add cloak
   get  Get cloak
 ```
+
+## Author
+
+yuqing.ji@outlook.com
