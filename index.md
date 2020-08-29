@@ -22,7 +22,7 @@ What I want invCloak to do is to add my watermark to the frequency domain of my 
 Only one step to implement a watermark if you've got environment set up:
 
 ```
-$ python cloat.py add -r <path-to-the-raw-image> -c <path-to-the-watermark> -d <path-to-the-output>
+$ python cloak.py add -r <path-to-the-raw-image> -c <path-to-the-watermark> -d <path-to-the-output>
 ```
 
 Check out [README](https://github.com/vjyq/invCloak) for more details. 
