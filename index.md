@@ -15,7 +15,7 @@ You might notice I've already added a signature in each drawing. But it:
 
 Is there any other way?
 
-Inspired by other 'blind watermarks', I wrote [invCloak](http://vjyq.github.io/invCloak). 
+Inspired by other 'blind watermarks', I wrote [invCloak](https://github.com/vjyq/invCloak). 
 
 What I want invCloak to do is to add my watermark to the frequency domain of my drawings so I don't need to rack my brain for it any more. It seems to work. 
 
@@ -35,7 +35,7 @@ Note:
 - image L is 'raw.png'
 - image R is 'dressed.png'.
 
-Related materials could be found in the [repo]((https://github.com/vjyq/invCloak)) (folder 'example'). You could have a trial with them. 
+Related materials could be found in the [repo](https://github.com/vjyq/invCloak) (folder 'example'). You could have a trial with them. 
 
 Still a lot TODO - anti PS, more hidden, etc. Will keep posted. 
 
